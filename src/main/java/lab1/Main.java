@@ -76,7 +76,7 @@ public class Main {
         int[][] arr = new int[m][n];
         int checkInput;
         while (markWhileTwo) {
-            System.out.print("1 - ручной ввод, 2 - случайный ввод \nВведите тип заполнения массива: ");
+            System.out.print("1 - ручной ввод, 2 - случайный ввод \nВведите тип заполнения матрицы: ");
             checkInput = in.nextInt();
             if (checkInput == 1) {
                 findManual(arr, in);
