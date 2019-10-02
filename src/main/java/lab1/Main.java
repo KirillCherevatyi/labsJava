@@ -45,7 +45,7 @@ public class Main {
         boolean markWhileOne = true;
 
         while (markWhileOne) {
-            System.out.print("Введите количество строк массива: ");
+            System.out.print("Введите количество строк матрицы: ");
             m = in.nextInt();
             if (m > 0) {
                 markWhileOne = false;
@@ -60,7 +60,7 @@ public class Main {
         int n = 0;
         boolean markWhileOne = true;
         while (markWhileOne) {
-            System.out.print("Введите количество столбцов массива: ");
+            System.out.print("Введите количество столбцов матрицы: ");
             n = in.nextInt();
             if (n > 0) {
                 markWhileOne = false;
